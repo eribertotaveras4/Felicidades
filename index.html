@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Feliz Cumpleaños, Mi Amor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0e8d9;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+            animation: backgroundChange 10s infinite;
+        }
+        h1 {
+            font-size: 50px;
+            color: #de0ec2;
+            animation: fadeIn 2s;
+        }
+        p {
+            font-size: 20px;
+            animation: slideIn 3s;
+        }
+        .heart {
+            animation: beat 1s infinite;
+            font-size: 100px;
+            color: red;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { margin-left: 100%; }
+            to { margin-left: 0%; }
+        }
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+        @keyframes backgroundChange {
+            0% { background-color: #f0e8d9; }
+            50% { background-color: #ffe5e0; }
+            100% { background-color: #f0e8d9; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Feliz Cumpleaños, para la mejor esposa!</h1>
+    <h1><strong>Melany Lora Serrano <br> La mejor esposa del mundo</strong></h1>
+    <p> En este día tan especial, quiero recordarte que eres mi persona favorita en el mundo, no hay palabras que puedan expresar completamente lo que siento por ti, contigo he encontrado más que amor, he encontrado un hogar, gracias por ser mi refugio y mi paz. <br></p>
+    <h1><strong>¡Feliz cumpleaños, amor mío! </strong></h1>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const heart = document.getElementById("heart");
+            heart.addEventListener("click", function() {
+                alert("¡Te amo mucho!");
+            });
+        });
+    </script>
+    <img src="piso.jpg" alt="" width="400" height="400"> 
+    <img src="frente.jpg" alt="" width="600" height="400">
+    <img src="flores.jpg" alt="" width="400" height="400">
+</body>
+<div class="heart">🥰🌻💐🌸🌼
+</div>
+<div class="heart" id="heart">❤️
+    <div class="balloons">💕</div>
+    <div class="heart">❤️T❤️E❤️</div>
+    <div class="heart">❤️A❤️M❤️O❤️</div>
+    <div class="heart">❤️M❤️E❤️L❤️A❤️N❤️Y❤️
+   
+</html>
